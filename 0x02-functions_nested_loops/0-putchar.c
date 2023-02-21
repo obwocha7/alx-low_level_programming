@@ -1,11 +1,22 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * main - begins the program
- * this program prints a value
- * return - returns 0 if success.
+ * main - Entry point
+ * Return: Always 0 if success
  */
+
 int main(void)
+
 {
-	printf("_putchar\n");
-	return (0);
+
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return 0;
 }
