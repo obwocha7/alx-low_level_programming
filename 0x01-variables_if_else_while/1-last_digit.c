@@ -16,9 +16,9 @@ int main(void)
 {
 	int n, last, upper, lower;
 
-	upper = 100;
+	upper = 10000;
 
-	lower = -100;
+	lower = -10000;
 
 	srand(time(NULL));
 	n = rand() % (upper - lower + 1) + lower;
