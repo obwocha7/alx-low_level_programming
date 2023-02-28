@@ -20,10 +20,9 @@ void print_array(int *a, int n)
 	if (i < n - 1)
 	{
 	printf(", ");
-	}	
+	}
 
 	i++;
-	}	
-
+	}
 	printf("\n");
 }
